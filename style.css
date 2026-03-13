@@ -3,10 +3,15 @@ body{
     color :aliceblue
 }
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
+
+html,body{
+overflow-x:hidden;
+}
+
 
 /*------------------------------------------*/
 /*------------------------------------------*/
@@ -96,8 +101,8 @@ nav.manu a:hover{
 
 /* الحاوية اللي بتقسم الصفحة يمين وشمال */
 #home-hero .home-hero-container {
-    width: 85%;
-    margin: auto;
+    /* width: 85%;
+    margin: auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -232,7 +237,7 @@ nav.manu a:hover{
     #home-hero .home-hero-container {
         flex-direction: column; /* يحول الصف لعمود */
         align-items: center;    /* يوسّط العناصر */
-        gap: 30px;              /* مسافة بين الصورة والنص */
+        gap: 40px;              /* مسافة بين الصورة والنص */
     }
 
     #home-hero .home-hero-image {
