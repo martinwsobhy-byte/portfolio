@@ -101,8 +101,9 @@ nav.manu a:hover{
 
 /* الحاوية اللي بتقسم الصفحة يمين وشمال */
 #home-hero .home-hero-container {
-    /* width: 85%;
-    margin: auto; */
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +112,9 @@ nav.manu a:hover{
 /* ====== جزء الصورة ====== */
 #home-hero .home-hero-image {
     position: relative;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
+ 
 }
 
 /* الصورة نفسها */
@@ -129,7 +132,10 @@ nav.manu a:hover{
     position: relative;
     z-index: 2;
 }
-
+img{
+max-width:100%;
+height:auto;
+}
 
 #home-hero .home-hero-circle {
     position: absolute;
