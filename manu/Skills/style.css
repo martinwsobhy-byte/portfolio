@@ -1,0 +1,316 @@
+body{
+    background-color: black;
+    color :aliceblue
+}
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #1a1a1a;
+    flex-wrap: wrap;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav.manu {
+    display: flex;
+    gap: 15px;                     
+    flex-wrap: wrap;    
+}
+
+nav.manu a{
+    color: white;                   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;              
+    font-size: 16px;               
+    text-decoration: none;          
+    margin: 0 15px;                 
+    transition: color 0.3s;
+    word-break: break-word;           
+}
+
+nav.manu a:hover{
+    color: #ff6347;
+}
+
+.Logo{
+    display: flex;         
+    align-items: center;    
+    gap: 10px;              
+}
+
+.Logo img{
+
+    width: 60px;
+    height:auto; 
+    object-fit: contain;
+    margin-left: 15px;
+    cursor: pointer;  
+    max-width: 100%;    
+    display: block;
+}
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+
+
+
+/*------------------------------------------*/
+/*name of goled*/
+.Name{
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+#intro-text {
+  width: 100%;             /* العرض كامل الصفحة */
+  max-width: 1200px;       /* أقصى عرض */
+  margin: 0 auto;          /* توسيط النص */
+  padding: 20px 0;         /* مسافة من الأعلى والأسفل */
+  text-align: left;        /* محاذاة النص لليسار مثل الصورة */
+  font-family: 'Arial', sans-serif; /* نوع الخط مشابه */
+}
+
+/* السطر الأول */
+.line1 {
+  font-size: 24px;        /* حجم الخط */
+  font-weight: 400;       /* وزن الخط خفيف */
+  color: #ffffff;         /* اللون أبيض */
+  margin-bottom: 5px;     /* مسافة بعد السطر */
+}
+
+/* السطر الثاني */
+.line2 {
+  font-size: 48px;        /* حجم أكبر */
+  font-weight: 700;       /* سمك الخط Bold */
+  color: #9b59b6;         /* اللون بنفس لون البنفسجي في الصورة */
+  margin-bottom: 5px;
+}
+
+/* السطر الثالث */
+.line3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.5; 
+}
+
+/* السطر الرابع */
+.line4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.5;      /* المسافة بين الكلمات */
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+/* القسم الرئيسي للموديل */
+#pc3d-section {
+    width: 100%;
+    max-width: 1200px;   /* الحد الأقصى للعرض */
+    height: 500px;       /* ارتفاع متوسط مناسب للعرض */
+    margin: 0 auto;      /* توسيط القسم في الصفحة */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* الحاوية */
+#pc3d-container {
+  width: 80%;          /* تقريبًا 4/5 من عرض القسم */
+  height: 100%;        /* ملء ارتفاع القسم */
+}
+
+/* الموديل نفسه */
+#pc3d-model {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+
+
+
+/* footer */
+
+footer{
+background:#111;
+padding:30px 0;
+}
+
+/* ترتيب اللغات */
+
+.tech-carousel{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+/* العنصر */
+
+.tech-item{
+cursor:pointer;
+}
+
+/* الشكل السداسي */
+
+.hex{
+position:relative;
+
+width:50px;
+height:58px;
+
+clip-path: polygon(
+50% 0%,
+100% 25%,
+100% 75%,
+50% 100%,
+0% 75%,
+0% 25%
+);
+
+background:#1a1a1a;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+overflow:hidden;
+}
+
+/* الصورة */
+
+.hex img{
+width:75%;
+z-index:1;
+}
+
+/* البوابة */
+
+.gate{
+position:absolute;
+top:0;
+
+width:50%;
+height:100%;
+
+background: repeating-linear-gradient(
+90deg,
+#aaa 0px,
+#aaa 4px,
+#444 4px,
+#444 8px
+);
+
+transition:0.4s;
+z-index:2;
+}
+
+/* البوابة */
+
+.gate{
+position:absolute;
+top:0;
+
+width:50%;
+height:100%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+transition:0.4s;
+z-index:2;
+
+/* شكل الباب الفضائي */
+
+background:
+linear-gradient(135deg,#1b1b1b,#0a0a0a);
+
+border:1px solid  #9b59b6;
+
+box-shadow:
+inset 0 0 8px  #9b59b6,
+0 0 5px  #9b59b6;
+}
+
+/* الخط اللي في نص الباب */
+
+.gate::before{
+content:"";
+
+width:2px;
+height:70%;
+
+background: #9b59b6;
+
+box-shadow:0 0 10px #9b59b6;
+}
+
+/* الباب الشمال */
+
+.gate-left{
+left:0;
+
+transform:translateX(-100%);
+
+border-right:2px solid  #9b59b6;
+}
+
+/* الباب اليمين */
+
+.gate-right{
+right:0;
+
+transform:translateX(100%);
+
+border-left:2px solid  #9b59b6;
+}
+
+/* لما يقفل */
+
+.tech-item.active .gate-left{
+transform:translateX(0);
+}
+
+.tech-item.active .gate-right{
+transform:translateX(0);
+}
+
+.hex{
+box-shadow:
+0 0 6px rgba(0,229,255,0.4);
+}
