@@ -2,6 +2,12 @@ body{
     background-color: black;
     color :aliceblue
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*------------------------------------------*/
 /*------------------------------------------*/
 /*------------------------------------------*/
@@ -237,4 +243,26 @@ nav.manu a:hover{
         max-width: 90%; /* يسمح للنص بالتمدّد بعرض الشاشة */
         text-align: center; /* توسيط النص */
     }
+}
+
+
+@media (max-width:768px){
+
+.stats-footer{
+    flex-direction: column;
+    gap:20px;
+}
+
+.divider{
+    display:none;
+}
+
+.stat h2{
+    font-size:30px;
+}
+
+.stat p{
+    font-size:13px;
+}
+
 }
