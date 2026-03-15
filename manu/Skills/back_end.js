@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let whatsApp = document.querySelector(".WhatsApp");
     whatsApp.onclick = function (e) {
-        e.preventDefault(); // يمنع الريلود
+        e.preventDefault(); 
         window.open("https://wa.me/201222742431?text=Hello%20Martin", "_blank");
     };
 });
